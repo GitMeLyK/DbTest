@@ -5,5 +5,6 @@ SET QUOTED_IDENTIFIER ON
 CREATE TABLE [dbo].[TABLE_TEST](
 	[ID] [int] IDENTITY(0,1) NOT NULL,
 	[NAME] [char](50) NOT NULL,
-	[DESC] [nchar](50) NULL
+	[DESC] [nchar](50) NULL,
+	[Altra] [nchar](10) NULL
 ) ON [PRIMARY]
